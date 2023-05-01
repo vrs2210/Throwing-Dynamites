@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:tnt"
+  },
+  "base": {
+    "item": "dynamite:dynamite"
+  },
+  "result": {
+    "item": "dynamite:he_dynamite"
+  }
+}

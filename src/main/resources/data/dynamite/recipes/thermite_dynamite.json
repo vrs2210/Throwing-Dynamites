@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:fire_charge"
+  },
+  "base": {
+    "item": "dynamite:dynamite"
+  },
+  "result": {
+    "item": "dynamite:thermite-dynamite"
+  }
+}
