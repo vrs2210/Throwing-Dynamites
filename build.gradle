@@ -22,7 +22,6 @@ loom {
     mods {
         "dynamite" {
             sourceSet sourceSets.main
-            sourceSet sourceSets.client
         }
     }
 

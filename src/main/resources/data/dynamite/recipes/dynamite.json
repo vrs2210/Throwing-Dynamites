@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "S": {
-      "item": "minecraft:stick"
+      "item": "minecraft:string"
     },
     "T": {
       "item": "minecraft:terracotta"

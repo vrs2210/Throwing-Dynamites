@@ -3,7 +3,7 @@
 	"id": "dynamite",
 	"version": "${version}",
 	"name": "Dynamite",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds throwable dynamite to Minecraft!",
 	"authors": [
 		"vrs2210"
 	],
@@ -17,18 +17,8 @@
 	"entrypoints": {
 		"main": [
 			"boom.dynamite.Main"
-		],
-		"client": [
-			"boom.dynamite.MainClient"
 		]
 	},
-	"mixins": [
-		"dynamite.mixins.json",
-		{
-			"config": "dynamite.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.14.19",
 		"minecraft": "~1.19.4",

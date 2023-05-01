@@ -1,5 +1,7 @@
 {
     "item.dynamite.he_dynamite": "HE Dynamite",
     "item.dynamite.dynamite": "Dynamite",
-    "item.dynamite.thermite_dynamite": "Thermite Dynamite"
+    "item.dynamite.thermite_dynamite": "Thermite Dynamite",
+
+    "itemGroup.dynamite.dynamite_items": "Dynamite Addition"
 }
