@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:ender_pearl"
+  },
+  "base": {
+    "item": "dynamite:dynamite"
+  },
+  "result": {
+    "item": "dynamite:ender_dynamite"
+  }
+}
