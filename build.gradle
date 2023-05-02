@@ -14,6 +14,7 @@ repositories {
 	maven { 
 		url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' 
 	}	
+	maven { url 'https://maven.wispforest.io' }
 }
 
 loom {
@@ -28,6 +29,14 @@ loom {
 }
 
 dependencies {
+	modImplementation "io.wispforest:owo-lib:${project.owo_version}"
+
+	// owo-config
+	annotationProcessor "io.wispforest:owo-lib:${project.owo_version}"
+
+	// auto install
+	include "io.wispforest:owo-sentinel:${project.owo_version}"
+
 	// Minecraft
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	

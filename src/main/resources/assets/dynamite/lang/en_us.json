@@ -1,10 +1,13 @@
 {
-    "item.dynamite.he_dynamite": "HE Dynamite",
+    "item.dynamite.he_dynamite": [
+        {"text": "HE", "color": "#C5AB5C"},
+        {"text": " Dynamite", "color": "#FFFFFF"}
+    ],
     "item.dynamite.dynamite": "Dynamite",
     "item.dynamite.thermite_dynamite": "Thermite Dynamite",
     "item.dynamite.ender_dynamite": "Ender Dynamite",
 
-    "itemGroup.dynamite.dynamite_items": "Dynamite Addition",
+    "itemGroup.dynamite.item_group": "Throwing Dynamite",
 
     "item.dynamite.dynamite.tooltip": "Goes bang.",
     "item.dynamite.thermite_dynamite.tooltip": "Don't burn yourself.",
