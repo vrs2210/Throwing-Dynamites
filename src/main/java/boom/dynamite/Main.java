@@ -15,6 +15,7 @@ public class Main implements ModInitializer {
     public static DynamiteItem Dynamite = new DynamiteItem(false, true, 3.0f, "item.dynamite.dynamite.tooltip");
     public static DynamiteItem HEDynamite = new DynamiteItem(false, true, 6.0f, "item.dynamite.he_dynamite.tooltip");
     public static DynamiteItem ThermiteDynamite = new DynamiteItem(true, true, 2.0f, "item.dynamite.thermite_dynamite.tooltip");
+    public static DynamiteItem EnderDynamite = new DynamiteItem(true, true, 2.0f, "item.dynamite.ender_dynamite.tooltip");
 
     private static final ItemGroup ITEM_GROUP = FabricItemGroup.builder(new Identifier(MOD_ID, "dynamite_items"))
         .icon(() -> new ItemStack(Dynamite))
@@ -25,11 +26,13 @@ public class Main implements ModInitializer {
         ItemUtil.registerItem(Dynamite, "dynamite");
         ItemUtil.registerItem(ThermiteDynamite, "thermite_dynamite");
         ItemUtil.registerItem(HEDynamite, "he_dynamite");
+        ItemUtil.registerItem(EnderDynamite, "ender_dynamite");
 
         ItemGroupEvents.modifyEntriesEvent(ITEM_GROUP).register(content -> {
             content.add(Dynamite);
             content.add(HEDynamite);
             content.add(ThermiteDynamite);
+            content.add(EnderDynamite);
         });
     }
 }
