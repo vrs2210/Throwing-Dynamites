@@ -11,9 +11,10 @@ public class ThrowableUtil {
     private static final Byte ENTITY_STATUS_BYTE = EntityStatuses.PLAY_DEATH_SOUND_OR_ADD_PROJECTILE_HIT_PARTICLES;
     private static final ExplosionSourceType EXPLOSION_SOURCE_TYPE = ExplosionSourceType.BLOCK;
 
-    public static void throwItemStack(PlayerEntity playerEntity, ItemStack itemStack, DynamiteEntity dynamiteEntity, World world, float Speed) {
+    public static void throwItemStack(PlayerEntity playerEntity, ItemStack itemStack, DynamiteEntity dynamiteEntity, World world, float Speed, Boolean useGravity) {
         dynamiteEntity.setItem(itemStack);
         dynamiteEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, Speed, 1.0f);
+        dynamiteEntity.setNoGravity(!dynamiteEntity.useGravity);
         world.spawnEntity(dynamiteEntity);
     }
 

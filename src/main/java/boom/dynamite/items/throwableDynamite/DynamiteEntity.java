@@ -8,12 +8,14 @@ import net.minecraft.world.World;
 
 public class DynamiteEntity extends SnowballEntity {
     public Boolean useFire;
+    public boolean useGravity;
     public float explosionPower;
     
-    public DynamiteEntity(World world, LivingEntity livingEntity, Boolean useFire, float explosionPower) {
+    public DynamiteEntity(World world, LivingEntity livingEntity, Boolean useFire, Boolean useGravity, float explosionPower) {
         super(world, livingEntity);
         this.useFire = useFire;
         this.explosionPower = explosionPower;
+        this.useGravity = useGravity;
     }
 
     @Override
