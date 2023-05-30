@@ -1,6 +1,6 @@
-package boom.dynamite.Util;
+package boom.dynamite_.Util;
 
-import boom.dynamite.items.throwableDynamite.DynamiteEntity;
+import boom.dynamite_.items.throwableDynamite.DynamiteEntity;
 import net.minecraft.entity.EntityStatuses;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;

@@ -1,9 +1,9 @@
-package boom.dynamite.items.throwableDynamite;
+package boom.dynamite_.items.throwableDynamite;
 
 import java.util.List;
 
-import boom.dynamite.Util.ItemUtil;
-import boom.dynamite.Util.ThrowableUtil;
+import boom.dynamite_.Util.ItemUtil;
+import boom.dynamite_.Util.ThrowableUtil;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;

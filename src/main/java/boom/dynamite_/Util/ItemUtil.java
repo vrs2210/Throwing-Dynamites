@@ -1,4 +1,4 @@
-package boom.dynamite.Util;
+package boom.dynamite_.Util;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;

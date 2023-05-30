@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"boom.dynamite.Main"
+			"boom.dynamite.ModInitialize"
 		]
 	},
 	"depends": {

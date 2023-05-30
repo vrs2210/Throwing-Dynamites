@@ -1,4 +1,4 @@
-package boom.dynamite;
+package boom.dynamite_;
 
 import io.wispforest.owo.itemgroup.Icon;
 import io.wispforest.owo.itemgroup.OwoItemGroup;

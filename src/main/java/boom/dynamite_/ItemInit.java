@@ -1,6 +1,6 @@
-package boom.dynamite;
+package boom.dynamite_;
 
-import boom.dynamite.items.throwableDynamite.DynamiteItem;
+import boom.dynamite_.items.throwableDynamite.DynamiteItem;
 import io.wispforest.owo.itemgroup.OwoItemGroup;
 import io.wispforest.owo.registration.reflect.ItemRegistryContainer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;

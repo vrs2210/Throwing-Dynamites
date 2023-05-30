@@ -1,0 +1,11 @@
+{
+    "item.throwables.dynamite": [
+        {"text": "Dynamite", "color": "#A2443E"}
+    ],
+
+    "itemGroup.throwables.item_group": [
+        "",
+        "Throwable ",
+        {"translate": "item.throwables.dynamite"}
+    ]
+}

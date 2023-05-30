@@ -1,6 +1,6 @@
-package boom.dynamite.items.throwableDynamite;
+package boom.dynamite_.items.throwableDynamite;
 
-import boom.dynamite.Util.ThrowableUtil;
+import boom.dynamite_.Util.ThrowableUtil;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.projectile.thrown.SnowballEntity;
 import net.minecraft.util.hit.HitResult;
